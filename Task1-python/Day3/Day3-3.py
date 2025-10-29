@@ -1,0 +1,10 @@
+s=int(input())
+digits=0
+ans=""
+while(s>0):
+    r=s%10
+    digits+=1
+    ans=ans+str(r)
+    s=s//10
+print(digits)
+print(ans)
